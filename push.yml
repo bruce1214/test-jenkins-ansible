@@ -43,7 +43,7 @@
     tags: webpage
     copy:
       src: /index.html                ###先在controll node /下創造 index.html檔案
-      dest: /var/www/html/index.html
+      dest: /var/www/html
 
   - name: Make sure a service is arunning
     tags: webservice
