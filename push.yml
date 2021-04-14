@@ -40,7 +40,7 @@
       masked: no
 
   - name: Push index.html to website
-   tags: webpage
+    tags: webpage
     copy:
       src: /var/lib/jenkins/workspace/push/index.html                ###先在controll node /下創造 index.html檔案
       dest: /var/www/html/index.html
